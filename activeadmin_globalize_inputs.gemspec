@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "activeadmin_globalize_inputs"
   gem.require_paths = ["lib"]
-  gem.version       = '0.0.2'
+  gem.version       = '1.0.0'
 
   gem.add_dependency "globalize"
   gem.add_dependency "activeadmin"
